@@ -46,11 +46,14 @@ if response.status_code == 200:
 else
     print("Failed!")
 
-
-
-
-
-
+# Extract the final results as the table
+soup = BeautifulSoup(response.text, 'html.parser')
+table = soup.find('table', attrs={'border': '1'})
+table_content = str(table)
+print(table_content)
+html_file = open('table.html', 'w')
+html_file.write(str(table))
+html_file.close()
 
 
 
