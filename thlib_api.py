@@ -6,6 +6,8 @@ import html
 from bs4 import BeautifulSoup
 import re
 
+# https://www.thlib.org/reference/dictionaries/tibetan-dictionary/translate.php
+
 # Insert your inputs of Tibetan words or sentences
 tibetan_symbols = 'གཞན་གྱི་ཡོན་ཏན་མཐོང་ཙམ་གྱིས་མཐོང་ཆུང་དང་དམན་ལྟ་བྱེད་པས་སྡིག་པ་རྔམས་པོ་ཆེ་ཞིག་བསགས་པར་འགྱུར'
 
